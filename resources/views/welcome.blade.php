@@ -30,7 +30,7 @@
                         <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
 
                         @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
+                            <!--<a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>-->
                         @endif
                     @endauth
                 </div>
@@ -49,7 +49,11 @@
 
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                  Local Information about our system
+                                The General Data Protection Regulation (GDPR) is an important and globally-influential data and privacy law from the European Union. The GDPR applies to mobile apps that collect and process personal data of EU citizens. It doesn't matter if your app is operated from outside of the EU. The GDPR will still apply.
+
+The purpose of the GDPR is to provide improved privacy protection and control for EU citizens. It is designed to give individuals control of their personal data and to improve how businesses manage personal consumer data.
+
+Under the GDPR, businesses that conduct transactions in the EU, including mobile apps, will be required to comply with the new data privacy rules. Failure to comply with this legislation could result in costly fines.
                                 </div>
                             </div>
                         </div>
