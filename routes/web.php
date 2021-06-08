@@ -32,3 +32,9 @@ Route::get('/home', function() {
 })->name('home')->middleware('auth');
 Route::resource('users', \App\Http\Controllers\UserController::class)
     ->middleware('auth');
+
+Route::resource('/orders','OrderController');//order.index
+Route::resource('/products','ProductController');//Product.index
+Route::resource('/suppliers','SupplierController');//suppliers.index
+Route::resource('/companies','CompanyController');//companies.index
+Route::resource('/transactions','TransactionController');//transactions.index

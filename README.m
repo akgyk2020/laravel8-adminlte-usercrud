@@ -13,3 +13,6 @@
 #php artisan migrate
 #php artisan db:seed
 #php artisan migrate:fresh --seed
+
+
+#php artisan make:model Setting,trans,produc.order,etc -mcr
