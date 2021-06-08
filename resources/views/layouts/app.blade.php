@@ -18,6 +18,11 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    <!-- editing 1 -->
+    
+
+
 </head>
 <body>
     <div id="app">
@@ -33,7 +38,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-
+                        
                     </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -77,7 +82,16 @@
 
         <main class="py-4">
             @yield('content')
+            
         </main>
+
+
+        
+        
+
     </div>
+
+
+    
 </body>
 </html>
