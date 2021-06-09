@@ -13,16 +13,16 @@
                 <div class="card-body">
 
                     <a href="{{route('users.create')}}" class="btn btn-primary mb-2">
-                        Tambah
+                        Add
                     </a>
 
                     <table class="table table-hover table-bordered table-stripped" id="example2">
                         <thead>
                         <tr>
                             <th>No.</th>
-                            <th>Nama</th>
+                            <th>Name</th>
                             <th>Email</th>
-                            <th>Opsi</th>
+                            <th>Option</th>
                         </tr>
                         </thead>
                         <tbody>

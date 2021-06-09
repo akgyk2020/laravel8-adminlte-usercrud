@@ -15,6 +15,11 @@ class CreateSettingsTable extends Migration
     {
         Schema::create('settings', function (Blueprint $table) {
             $table->id();
+            $table->string('settings_name')->defaults('Administrator');
+            $table->string('settings_level')->defaults('admin');
+            $table->string('settings_valid')->defaults('1');
+            $table->string('settings_point')->defaults('void');
+            $table->string('settings_user')->defaults('2');
             $table->timestamps();
         });
     }

@@ -3,7 +3,7 @@
 @section('title', 'Tambah User')
 
 @section('content_header')
-    <h1 class="m-0 text-dark">Tambah User</h1>
+    <h1 class="m-0 text-dark">Add User</h1>
 @stop
 
 @section('content')
@@ -15,7 +15,7 @@
                 <div class="card-body">
 
                     <div class="form-group">
-                        <label for="exampleInputName">Nama</label>
+                        <label for="exampleInputName">Name</label>
                         <input type="text" class="form-control @error('name') is-invalid @enderror" id="exampleInputName" placeholder="Nama lengkap" name="name" value="{{old('name')}}">
                         @error('name') <span class="text-danger">{{$message}}</span> @enderror
                     </div>

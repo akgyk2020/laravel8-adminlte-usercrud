@@ -16,7 +16,7 @@
                 <div class="card-body">
 
                     <div class="form-group">
-                        <label for="exampleInputName">Nama</label>
+                        <label for="exampleInputName">Name</label>
                         <input type="text" class="form-control @error('name') is-invalid @enderror" id="exampleInputName" placeholder="Nama lengkap" name="name" value="{{$user->name ?? old('name')}}">
                         @error('name') <span class="text-danger">{{$message}}</span> @enderror
                     </div>
