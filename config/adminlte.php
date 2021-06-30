@@ -123,7 +123,7 @@ return [
 
     'classes_body' => '',
     'classes_brand' => '',
-    'classes_brand_text' => '',
+    'classes_brand_text' => 'akg',
     'classes_content_wrapper' => '',
     'classes_content_header' => '',
     'classes_content' => '',
@@ -226,9 +226,29 @@ return [
 
     'menu' => [
         [
+            'text' => 'Transaction',
+            'url'  => '/trans',
+            'icon'  => 'fa fa-pencil',
+        ],
+        [
+            'text' => 'Report',
+            'url'  => '/report',
+            'icon'  => 'fa fa-print',
+        ],
+        [
             'text' => 'User',
             'url'  => '/users',
             'icon'  => 'fa fa-users',
+        ],
+        [
+            'text' => 'Setting',
+            'url'  => '/setting',
+            'icon'  => 'fa fa-bars',
+        ],
+        [
+            'text' => 'Master',
+            'url'  => '/master',
+            'icon'  => 'fa fa-lock',
         ],
     ],
 
