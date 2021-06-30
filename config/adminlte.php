@@ -242,22 +242,22 @@ return [
         ],
         [
             'text' => 'Product',
-            'url'  => '/product',
+            'url'  => '/products',
             'icon'  => 'fa fa-shopping-bag',
         ],
         [
             'text' => 'Customer',
-            'url'  => '/customer',
+            'url'  => '/customers',
             'icon'  => 'fa fa-users',
         ],
         [
             'text' => 'Report',
-            'url'  => '/report',
+            'url'  => '/reports',
             'icon'  => 'fa fa-print',
         ],
         [
             'text' => 'User',
-            'url'  => '/user',
+            'url'  => '/users',
             'icon'  => 'fa fa-user',
         ],
         [
