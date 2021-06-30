@@ -226,9 +226,24 @@ return [
 
     'menu' => [
         [
+            'text' => 'Home',
+            'url'  => '/home',
+            'icon'  => 'fa fa-home',
+        ],
+        [
             'text' => 'Transaction',
             'url'  => '/trans',
-            'icon'  => 'fa fa-pencil',
+            'icon'  => 'fa fa-credit-card',
+        ],
+        [
+            'text' => 'Orders',
+            'url'  => '/orders',
+            'icon'  => 'fa fa-barcode',
+        ],
+        [
+            'text' => 'Product',
+            'url'  => '/product',
+            'icon'  => 'fa fa-shopping-bag',
         ],
         [
             'text' => 'Report',
