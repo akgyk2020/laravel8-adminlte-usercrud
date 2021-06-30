@@ -226,9 +226,9 @@ return [
 
     'menu' => [
         [
-            'text' => 'Home',
-            'url'  => '/home',
-            'icon'  => 'fa fa-home',
+            'text' => 'P.O.S',
+            'url'  => '/pointofsale',
+            'icon'  => 'fa fa-shopping-cart',
         ],
         [
             'text' => 'Transaction',
@@ -246,14 +246,19 @@ return [
             'icon'  => 'fa fa-shopping-bag',
         ],
         [
+            'text' => 'Customer',
+            'url'  => '/customer',
+            'icon'  => 'fa fa-users',
+        ],
+        [
             'text' => 'Report',
             'url'  => '/report',
             'icon'  => 'fa fa-print',
         ],
         [
             'text' => 'User',
-            'url'  => '/users',
-            'icon'  => 'fa fa-users',
+            'url'  => '/user',
+            'icon'  => 'fa fa-user',
         ],
         [
             'text' => 'Setting',
